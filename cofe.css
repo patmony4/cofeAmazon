@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 550px;
+    background-image: conic-gradient(rgba(16, 43, 16, 0.911), rgba(10, 27, 10, 0.911));
+    z-index: 99;
+    display: flex;
+}
+.header .l1{
+    width: 33%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.l1 i{
+    font-size: 26px;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: gold;
+}
+.l1 i:hover{
+    color: green;
+}
+.header .mid1{
+    width: 34%;
+    height: 100%;
+    /* background-color: rgb(31, 185, 196); */
+    position: relative;
+}
+.mid1 .b1{
+    width: 100%;
+    height: 90%;
+}
+.mid1 .b2{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+.mid1 .b1 img{
+   width: 60%;
+   height: 100%;
+   /* object-fit: cover; */
+   margin-left: 100px;
+}
+.header .right1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(43, 177, 25); */
+}
+.header .a1{
+    width: 85%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.header .a2{
+    width: 15%;
+    height: 100%;
+    /* background-color: rgb(54, 7, 129); */
+}
+.right1 .a1 i{
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    color: black;
+    margin-top: 30px;
+    background-color: rgb(245, 239, 239);
+    border-right: 2px solid #808080;
+    font-size: 23px;
+}
+.right1 .a1 i:hover{
+    background-color: rgb(74, 10, 223);
+    color: white;
+}
+.right1 .a2 p:hover{
+    color: green;
+}
+.right1 .a2 p{
+    margin-left: 10px;
+    margin-top: 27px;
+    font-size: 30px;
+    color: yellow;
+}
+.header1{
+    width: 100%;
+    height: 500px;
+    background-color: moccasin;
+}
+.header1 .c1{
+    width: 100%;
+    height: 60%;
+}
+.c1 img{
+    margin-left: 560px;
+    margin-top: 230px;
+}
+.header1 .c2{
+    width: 100%;
+    height: 15%;
+}
+.c2 h1{
+    margin-left: 850px;
+    margin-bottom: 10px;
+}
+.header1 .c3{
+    width: 100%;
+    height: 25%;
+}
+.c3 .d1{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.d1 .d2{
+    width: 33%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+    /* margin-right: 10px; */
+}
+.header1 .c3 .d1 .d2 img{
+   width: 40%;
+   height: 100%;
+   object-fit: cover;
+   margin-left: 50px;
+}
+.header1 .c3 .d1 .d2:hover img{
+    transform: scale(1.1);
+}
+.header2{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    position: relative;
+}
+.header2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header2 .e1{
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 240, 240);
+    color: rgb(83, 79, 79);
+}
+.header2 .e2{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+}
+.header2 .e2 input{
+    background-color: rgba(209, 146, 10, 0.904);
+}
+.header2 .e2 input:hover{
+    background-color: rgba(255, 255, 0, 0.74);
+}
+.header3{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(222, 184, 135, 0.603);
+    position: relative;
+}
+.header3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header3 .w1{
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+.header3 .w2{
+    position: absolute;
+    bottom: 150px;
+    left: 900px;
+}
+.header3 .w2 button{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.header3 .w2 button:hover{
+    background-color: rgb(14, 184, 79);
+}
+.header3 .w2 p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.header4{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+.header4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header4 .f1{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 370px;
+}
+.f1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header4 .f2{
+    width: 30%;
+    height: 80%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 990px;
+    border-radius: 50px;
+}
+.f2 h2{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.f2 p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.f2 button{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(0, 128, 0, 0.603);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.f2 button:hover{
+    background-color: rgb(1, 36, 1);
+}
+.header5{
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+    position: relative;
+}
+.header5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header5 .m1{
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 30%;
+}
+.header5 .m1 h2{
+    font-size: 30px;
+}
+.header5 .m1 p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.header6{
+    width: 100%;
+    height: 450px;
+    background-color:khaki;
+    display: flex;
+}
+.header6 .n1{
+    width: 33%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.n1 img{
+    width: 400px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.n1 p{
+    margin-left: 20px;
+}
+.header6 .n2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(23, 170, 31); */
+}
+.n2 h2{
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.n2 img{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.header6 .n3{
+    width: 34%;
+    height: 100%;
+    /* background-color: rgb(44, 18, 147); */
+}
+.n3 img{
+    width: 400px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+.div{
+    margin-top: 30px;
+}
+.n3 p{
+    margin-left: 20px;
+}
+.div h3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.n1 .div:hover{
+    transform: scale(1.1);
+} 
+.n2 .div:hover{
+    transform: scale(1.1);
+} 
+.n3 .div:hover{
+    transform: scale(1.1);
+} 
+.header7{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.top ul{
+    margin-left: 30%;
+    color: white;
+    display: flex;
+}
+.top ul li{
+    font-size: 20px;
+    color:white ;
+}
+.top ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+.top ul li a:hover{
+    color: #808080;
+}
+.below hr{
+    color: gray;
+}
+.below p{
+    color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+}
